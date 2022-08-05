@@ -1,0 +1,10 @@
+[Unit]
+Description=Intercom system
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/python_programs/intercom_step_9.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target

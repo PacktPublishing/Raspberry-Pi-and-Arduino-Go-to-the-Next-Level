@@ -1,0 +1,17 @@
+--> Serial communication
+
+Arduino -> RPi
+button_pressed\n
+
+RPi -> Arduino
+open_door\n
+close_door\n
+print_text:this is some text\n
+play_buzzer:frequency,duration\n  --> play_buzzer:200,1000\n
+set_led:red,green,blue\n          --> set_led:003,255,050\n
+
+--> Telegram communication
+
+/start
+/open
+/deny
